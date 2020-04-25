@@ -1,0 +1,40 @@
+.header {
+  height: 50px;
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background:  rgb(141, 114, 114);
+}
+
+img {
+  height: 60px;
+  width: 80px;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background:  rgb(243, 239, 239);
+}
+
+.routes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+}
+
+a {
+  margin-right: 15px;
+}
