@@ -9,7 +9,7 @@ import Comp2 from "./components/Comp2/Comp2";
 class App extends React.Component {
   render() {
     return (
-     <div>App Component</div>
+     <div>Parent Component</div>
     );
   }
 }
