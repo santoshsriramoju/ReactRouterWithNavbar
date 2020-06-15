@@ -9,8 +9,11 @@ import Comp2 from "./components/Comp2/Comp2";
 class App extends React.Component {
   render() {
     return (
-     <div>Parent Component</div>
+     <div>My Parent Component</div>
     );
   }
 }
+
+const h = 100;
+
 export default App;
